@@ -33,7 +33,7 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 Now that you have downloaded webots in your computer, you may follow these instruction to
 
-* [Clone this repository](Clone this repository)
+* [Clone this repository](#Clone this repository)
 
 * [Load the arena](#Load the arena)
 

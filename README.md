@@ -35,7 +35,7 @@ Now that you have downloaded webots in your computer, you may follow these instr
 
 ### Clone this repository
 
-* Firstly, install git in your computer. You may follow this tutorial - https://phoenixnap.com/kb/how-to-install-git-windows
+* Firstly, install git in your computer. You may follow these tutorials - [Windows](https://phoenixnap.com/kb/how-to-install-git-windows) | [Linux](https://www.atlassian.com/git/tutorials/install-git#linux)
 
 * Then open command prompt (*in windows*) or terminal (*in linux*) and clone this repository
 

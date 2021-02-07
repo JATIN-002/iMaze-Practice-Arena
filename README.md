@@ -19,6 +19,20 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 * And then follow the prompts (*Next*, *Next*, ..., *Install*).
 
+**Python installation :**
+
+* Open the https://www.python.org/downloads/  in your web browser. Navigate to the Downloads tab for Windows.
+
+* Click on the link to download **Windows x86 executable installer** if you are using a 32-bit installer. In case your Windows installation is a 64-bit system, then download **Windows x86-64 executable installer**(shown below).
+
+  ![ver1](images/ver1.jpg)
+
+* Once the installer is downloaded, run the Python installer.
+
+  ![iwin](images/iwin.jpg)
+
+* You can now start the installation of Python by clicking on **Install Now**.
+
 ### Linux
 
 * Download .deb file (shown below) from the official website - https://cyberbotics.com/
@@ -28,6 +42,34 @@ As this competition is going to be conducted in webots simulator, you may follow
 * Go to the directory where you have downloaded the file and just double click the file. You can see something like below, just click *install*
 
   ![lin-2](images/lin-2.jpg)
+  
+**Python installation :**
+
+* Update the packages list and install the prerequisites:
+
+  ```
+  $ sudo apt update
+  $ sudo apt install software-properties-common
+  
+  ```
+
+* Add the deadsnakes PPA to your system’s sources list:
+
+  ```
+  $ sudo add-apt-repository ppa:deadsnakes/ppa
+  ```
+
+* you can install Python 3.9 by executing:
+
+  ```
+  $ sudo apt install python3.9
+  ```
+
+* Verify that the installation was successful by typing:
+
+  ```
+  python3.9 --version
+  ```
 
 ## Usage
 

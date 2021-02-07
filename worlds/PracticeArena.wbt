@@ -3,8 +3,8 @@ WorldInfo {
   coordinateSystem "NUE"
 }
 Viewpoint {
-  orientation 0.9993658219032342 -0.02536703183890409 -0.024989351879490165 4.726754669502971
-  position -0.0010211489675546748 5.3409918457593895 0.02154380855116001
+  orientation 1 0 0 4.71238898038469
+  position 0.0003051560168744777 5.412011091584919 3.5012621871085405e-06
 }
 TexturedBackground {
 }
@@ -37,10 +37,9 @@ SolidBox {
   name "box(13)"
   size 0.4 0.2 0.4
   appearance PBRAppearance {
-    baseColor 0 0 0
     baseColorMap ImageTexture {
       url [
-        "logo2.png"
+        "logo2.jpg"
       ]
     }
     roughness 0.5
@@ -59,11 +58,13 @@ SolidBox {
   }
 }
 E-puck {
-  hidden position_0_0 9.037510501374638e-12
-  hidden position_0_1 -7.831898861071342e-10
-  translation -0.147382 -0.0100498 0.853953
-  rotation 0.010110539731535396 0.9998690711850529 -0.012633980919603405 2.3556406596993154
-  controller "PS2_controller"
+  hidden position_0_0 -3.099654814399636e-08
+  hidden position_0_1 3.0222446844080436e-08
+  hidden rotation_1 1 0 0 2.9802322387695313e-08
+  hidden rotation_2 -1 0 0 2.9802322387695313e-08
+  translation -0.14738210418292247 -6.396823275035997e-05 0.8539530027748478
+  rotation 2.2623117818354017e-06 0.9999999999930683 2.9572499212623633e-06 2.355428746441416
+  controller "void"
   camera_fieldOfView 1
   camera_width 512
   camera_height 512
@@ -208,76 +209,76 @@ SolidBox {
     metalness 0
   }
 }
-MazeBlock {
-  translation -0.762081 0 0.550977
-  rotation 0 1 0 1.5708
-  length 0.5
-}
-MazeBlock {
-  translation -0.409895 0 0.636402
-  rotation 0 1 0 1.5708
-  name "maze block(3)"
-  length 0.3
-}
 Solid {
   children [
     MazeBlock {
-      translation 0.632886 0 0.204463
-      rotation 0 1 0 -3.1415853071795863
+      translation -0.40989499995769246 -2.386915570164877e-05 0.6364019999993518
+      rotation -2.8318546078629855e-13 1 3.0588862594485547e-13 1.5708000102578896
+      name "maze block(3)"
+      length 0.3
+    }
+    MazeBlock {
+      translation -0.762080131881133 -4.0723939116700525e-05 0.5637727481289141
+      rotation 1.5933318979852387e-05 0.9999999998724188 1.1365353744397861e-06 1.5707998488215849
+      length 0.5
+    }
+    MazeBlock {
+      translation 0.6333172375233687 -9.030992906347568e-07 0.2044762787781433
+      rotation 1.161449564391437e-09 1 8.740606529869349e-13 -3.1415833148391887
       name "maze block(9)"
       length 0.3
     }
     MazeBlock {
-      translation 0.626825 0 0.0189914
-      rotation 0 1 0 -3.1415853071795863
+      translation 0.6268125575150548 -9.031058800512692e-07 0.0185405898504239
+      rotation 1.0588572273301371e-09 1 -4.980973856423573e-13 3.1415368413009923
       name "maze block(10)"
       length 0.3
     }
     MazeBlock {
-      translation -0.621931 0 0.638191
-      rotation 0 1 0 1.5708
+      translation -0.6221482235390943 -9.084681056176214e-07 0.6381910102380887
+      rotation 6.715005703525182e-10 1 7.225123103491437e-10 1.5708310479400267
       name "maze block(5)"
       length 0.3
     }
     MazeBlock {
-      translation -0.520301 0 0.494828
-      rotation 0 1 0 -3.1415853071795863
+      translation -0.5200837764265649 -6.218918945366525e-07 0.4948279897164928
+      rotation -5.028026145482985e-10 1 1.7248751279432712e-12 -3.141585214346128
       name "maze block(4)"
       length 0.2
     }
     MazeBlock {
-      translation 0.283466 0 0.124788
-      rotation 0 1 0 1.5708
+      translation 0.283107561766569 -1.530360000077946e-06 0.12478796936855263
+      rotation -3.919953237851938e-14 1 3.9215056646677016e-14 1.570717313609879
       name "maze block(1)"
       length 0.5
     }
     MazeBlock {
-      translation 0.48702 0 0.114325
-      rotation 0 -1 0 1.57079
+      translation 0.4866012048173525 -6.42370829542771e-07 0.11476253137803957
+      rotation -1.0721722234521958e-10 -1 1.0375841144727378e-10 1.5708299793233156
       name "maze block(11)"
       length 0.2
     }
     MazeBlock {
-      translation -0.264291 0 0.546666
-      rotation 0 1 0 1.5708
+      translation -0.26426852364881853 -1.510611023138042e-06 0.546665909506017
+      rotation 2.4368966197219953e-09 1 2.303018629825358e-09 1.5707945968897905
       name "maze block(8)"
       length 0.5
     }
     MazeBlock {
-      translation 0.540433 0 -0.121396
-      rotation 0 1 0 -3.1415853071795863
+      translation 0.5404404559384199 -1.530360000008557e-06 -0.1213960017253185
+      rotation -5.919075088688331e-18 1 2.600842594649771e-18 -3.141585293978423
       name "maze block(2)"
       length 0.5
     }
     MazeBlock {
-      translation 0.531463 0 0.365563
-      rotation 0 1 0 -3.1415853071795863
+      translation 0.5318139822950135 -1.5303599999044737e-06 0.3655630323567659
+      rotation 4.403100135026109e-16 1 4.1299711449175715e-18 -3.1415852986393396
       name "maze block(6)"
       length 0.5
     }
     MazeBlock {
-      translation -0.521183 0 0.306305
-      rotation 0 1 0 -3.1415853071795863
+      translation -0.5212063605957653 -1.6864871001873172e-06 0.3063038024314793
+      rotation -1.3959637219874166e-08 0.9999999999999999 8.842688349739215e-10 -3.1415856465741046
       name "maze block(7)"
       length 0.5
     }

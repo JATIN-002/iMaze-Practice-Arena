@@ -19,17 +19,16 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 * And then follow the prompts (*Next*, *Next*, ..., *Install*).
 
-**Python installation :**
+**Python installation :**(If Python is not already installed)
 
-* Open the https://www.python.org/downloads/  in your web browser. Navigate to the Downloads tab for Windows.
+* Open the https://www.python.org/downloads/  in your web browser. Navigate to the Downloads tab for Windows. Choose any Python 3.7.x
 
 * Click on the link to download **Windows x86 executable installer** if you are using a 32-bit installer. In case your Windows installation is a 64-bit system, then download **Windows x86-64 executable installer**(shown below).
 
-  ![ver1](images/ver1.jpg)
 
 * Once the installer is downloaded, run the Python installer.
 
-  ![iwin](images/iwin.jpg)
+* Make sure you select **"Add Python3.7 to PATH"** option before starting the installation.
 
 * You can now start the installation of Python by clicking on **Install Now**.
 
@@ -43,7 +42,7 @@ As this competition is going to be conducted in webots simulator, you may follow
 
   ![lin-2](images/lin-2.jpg)
   
-**Python installation :**
+**Python installation :**(Only if python is not installed previously)
 
 * Update the packages list and install the prerequisites:
 
@@ -59,16 +58,16 @@ As this competition is going to be conducted in webots simulator, you may follow
   $ sudo add-apt-repository ppa:deadsnakes/ppa
   ```
 
-* you can install Python 3.9 by executing:
+* you can install Python 3.7 by executing:
 
   ```
-  $ sudo apt install python3.9
+  $ sudo apt install python3.7
   ```
 
 * Verify that the installation was successful by typing:
 
   ```
-  python3.9 --version
+  python3 --version
   ```
 
 ## Usage

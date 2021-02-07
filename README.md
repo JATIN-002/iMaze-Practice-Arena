@@ -56,3 +56,35 @@ Now that you have downloaded webots in your computer, you may follow these instr
 * Go to the folder where you have cloned this repository and select `PraticeArena.wbt` file as shown below
 
   ![web-3](images/web-3.jpg)
+  
+### Making a Custom Controller
+
+* Once you have opened the World, click on Wizards -> New Robot Controller
+
+![one](images/Custom-Controller-I.png)
+
+* Click on Next
+
+![two](images/Custom-Controller-II.png)
+
+* Select **Python** and then click Next
+
+![three](images/Custom-Controller-III.png)
+
+* Provide a Name for your Controller
+
+![four](images/Custom-Controller-IV.png)
+
+* Click on Finish 
+
+![five](images/Custom-Controller-V.png)
+
+### Connecting your Controller to the Robot
+
+* On the left side of the screen navigate to E-puck -> controller "PS2_controller" and then click on Select
+
+![six](images/Connect-to-Robot-I.png)
+
+* From the available options choose your controller and the click ok
+
+![seven](images/Connect-to-Robot-II.png)

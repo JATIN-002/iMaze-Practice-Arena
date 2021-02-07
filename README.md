@@ -85,6 +85,6 @@ Now that you have downloaded webots in your computer, you may follow these instr
 
 ![six](images/Connect-to-Robot-I.png)
 
-* From the available options choose your controller and the click ok
+* From the available options choose your controller and then click OK
 
 ![seven](images/Connect-to-Robot-II.png)

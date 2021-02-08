@@ -100,7 +100,7 @@ Now that you have downloaded webots in your computer, you may follow these instr
 
   ![web-2](images/web-2.jpg)
 
-* Go to the folder where you have cloned this repository and select `PraticeArena.wbt` file as shown below
+* Go to the folder where you have cloned this repository and select `PraticeArena.wbt` file (inside the folder named worlds) as shown below
 
   ![web-3](images/web-3.jpg)
   

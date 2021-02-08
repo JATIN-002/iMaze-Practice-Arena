@@ -1,13 +1,17 @@
 # iMaze-practice-Arena
 
+This is a repository which contains practice arena for the competition **iMaze** conducted by [Robotics Club, IIT BHU](https://github.com/Robotics-Club-IIT-BHU).
+
 * [Installation](#Installation)
 * [Usage](#Usage)
 
 ## Installation
 
-As this competition is going to be conducted in webots simulator, you may follow these instructions to install webots locally
+As this competition is going to be conducted in webots simulator, you may follow these instructions to install webots and python locally
 
 ### Windows
+
+#### Webots Installation
 
 * Download webots setup file(shown below) from the official website - https://cyberbotics.com/
 
@@ -19,7 +23,7 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 * And then follow the prompts (*Next*, *Next*, ..., *Install*).
 
-**Python installation :**(If Python is not already installed)
+#### Python installation : (If Python is not already installed)
 
 * Open the https://www.python.org/downloads/  in your web browser. Navigate to the Downloads tab for Windows. Choose any Python 3.7.x
 
@@ -34,6 +38,8 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 ### Linux
 
+#### Webots Installation
+
 * Download .deb file (shown below) from the official website - https://cyberbotics.com/
 
   ![lin-1](images/lin-1.jpg)
@@ -42,16 +48,16 @@ As this competition is going to be conducted in webots simulator, you may follow
 
   ![lin-2](images/lin-2.jpg)
   
-**Python installation :**(Only if python is not installed previously)
+
+#### Python installation : (Only if python is not installed previously)
 
 * Update the packages list and install the prerequisites:
 
   ```
   $ sudo apt update
   $ sudo apt install software-properties-common
-  
   ```
-
+  
 * Add the deadsnakes PPA to your system’s sources list:
 
   ```
@@ -72,7 +78,7 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 ## Usage
 
-Now that you have downloaded webots in your computer, you may follow these instruction to clone this repository, load the arena.
+Now that you have downloaded webots in your computer, you may follow these instruction to clone this repository, load the arena, create a custom controller and connect it to robot.
 
 ### Clone this repository
 
@@ -102,30 +108,30 @@ Now that you have downloaded webots in your computer, you may follow these instr
 
 * Once you have opened the World, click on Wizards -> New Robot Controller
 
-![one](images/Custom-Controller-I.png)
+  ![one](images/Custom-Controller-I.png)
 
 * Click on Next
 
-![two](images/Custom-Controller-II.png)
+  ![two](images/Custom-Controller-II.png)
 
 * Select **Python** and then click Next
 
-![three](images/Custom-Controller-III.png)
+  ![three](images/Custom-Controller-III.png)
 
 * Provide a Name for your Controller
 
-![four](images/Custom-Controller-IV.png)
+  ![four](images/Custom-Controller-IV.png)
 
 * Click on Finish 
 
-![five](images/Custom-Controller-V.png)
+  ![five](images/Custom-Controller-V.png)
 
 ### Connecting your Controller to the Robot
 
 * On the left side of the screen navigate to E-puck -> controller "PS2_controller" and then click on Select
 
-![six](images/Connect-to-Robot-I.png)
+  ![six](images/Connect-to-Robot-I.png)
 
 * From the available options choose your controller and then click OK
 
-![seven](images/Connect-to-Robot-II.png)
+  ![seven](images/Connect-to-Robot-II.png)

@@ -80,6 +80,8 @@ As this competition is going to be conducted in webots simulator, you may follow
 
 Now that you have downloaded webots in your computer, you may follow these instruction to clone this repository, load the arena, create a custom controller and connect it to robot.
 
+If you don't have git pre installed in your system,then simply download the zip file by clicking the green 'code' button above and then extract it.
+
 ### Clone this repository
 
 * Firstly, install git in your computer. You may follow these tutorials - [Windows](https://phoenixnap.com/kb/how-to-install-git-windows) | [Linux](https://www.atlassian.com/git/tutorials/install-git#linux)

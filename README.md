@@ -137,3 +137,35 @@ If you don't have git pre installed in your system,then simply download the zip 
 * From the available options choose your controller and then click OK
 
   ![seven](images/Connect-to-Robot-II.png)
+  
+### Helper Functions in Webots
+*Loading the device* - You can load the necessary devices, by using these functions.
+~~~
+left_motor = robot.getDevice('left wheel motor')
+right_motor = robot.getDevice('right wheel motor')
+ir_sensor = robot.getDevice('ps0')
+camera = robot.getDevice('camera')
+~~~
+*Initializing the motors* - Each motor's position is set to infinity, as if it set to a real number then the motors will stop after they have rotated by the number of radians specified.
+Initially, the velocity is set to 0, to ensure the robot is at a stop and not moving.
+~~~
+left_motor.setPosition(float('inf'))
+right_motor.setPosition(float('inf'))
+left_motor.setVelocity(0.0)
+right_motor.setVelocity(0.0)
+~~~
+*Actuation of the motors* - You'll be using velocity control method, to control the motors of the robot.
+~~~
+left_motor.setVelocity(speed)
+right_motor.setVelocity(speed)
+~~~
+*Initializing the sensors and reading values*
+~~~
+ir_sensor.enable(timestep)
+ir_sensor.getValue()
+~~~
+*Initializing the camera and reading values*
+~~~
+camera.enable(timestep)
+camera.getImageArray()
+~~~
